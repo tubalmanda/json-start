@@ -1,0 +1,1 @@
+console.log('fetching post from JSON placeholder')
