@@ -7,9 +7,9 @@ function loadUsers2(){
 function dsiplayUsers2(data){
     const ul = document.getElementById('users-list');
     for(const user of data){
-        console.log(user.name);
+        console.log(user.id);
         const li = document.createElement('li');
-        li.innerText = user.name;
+        li.innerText = user.website;
         ul.appendChild(li);
     }
 }
